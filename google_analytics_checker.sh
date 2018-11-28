@@ -17,7 +17,7 @@ curlwebsite="$(wget $website -q -O - | grep anonymizeIp)"
 analyticscode="'anonymizeIp', true"
 
 if [ "${curlwebsite/$analyticscode}" = "$curlwebsite" ] ; then
-  echo "The code "${analyticscode}" is not in the domain: ${website}"
+  echo "The code "${analyticscode}" does not exist in the domain: ${website}"
 else
   echo "The code "${analyticscode}" was found in ${website}"
 fi
