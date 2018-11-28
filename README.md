@@ -9,7 +9,7 @@ The script accepts one webadres as an argument
 * www.google.com
 
 ### Example
-Look up the ports and services (if available) of the given IP-address
+check if www.google.com has the string "'anonymizeIP', true" on the webpage.
 ```sh
 ./google_analytics_checker www.google.com
 ```
