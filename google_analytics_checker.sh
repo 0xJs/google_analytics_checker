@@ -2,7 +2,7 @@
 
 #Author: Kadeeli
 #Small script that will check if the webpage contains the string "'anonymizeIP', true" to check
-#if the webpage has the anonymize ip option for google analytics turned on
+#if the webpage has the anonymize ip option for google analytics turned on.
 
 website=$1
 
